@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <h1>iPhone Calculator</h1>
+        <p>Made for The Odin Project</p>
+    </header>
+    <body>
+        <div id="container">
+            <div id="calculator">
+                <div id="display">0</div>
+                <button id="clear" value="clear" class="clear" data-key="Escape"></button>
+                <button id="posneg" value="posneg" class="posneg" >+/-</button>
+                <button id="percent" value="percent" class="percent">%</button>
+                <button id="divide" value="/" class="operator orange" data-key="NumpadDivide">/</button>
+                <button id="seven" value="7" class="number" data-key="Numpad7">7</button>
+                <button id="eight" value="8" class="number" data-key="Numpad8">8</button>
+                <button id="nine" value="9" class="number" data-key="Numpad9">9</button>
+                <button id="multiply" value="x" class="operator orange" data-key="NumpadMultiply">X</button>
+                <button id="four" value="4" class="number" data-key="Numpad4">4</button>
+                <button id="five" value="5" class="number" data-key="Numpad5">5</button>
+                <button id="six" value="6" class="number" data-key="Numpad6">6</button>
+                <button id="subtract" value="-" class="operator orange" data-key="NumpadSubtract">-</button>
+                <button id="one" value="1" class="number" data-key="Numpad1">1</button>
+                <button id="two" value="2" class="number" data-key="Numpad2">2</button>
+                <button id="three" value="3" class="number" data-key="Numpad3">3</button>
+                <button id="add" class="operator orange" value="+" data-key="NumpadAdd">+</button>
+                <button id="zero" value="number" class="number" data-key="Numpad0">0</button>
+                <button id="decimal" value="." class="decimal" data-key="NumpadDecimal">.</button>
+                <button id="enter" class="enter" data-key="NumpadEnter">=</button>
+            </div>
+            <p>Press the Esc key to clear</p>
+        </div>
+        <script src="calc.js"></script>
+    </body>
+</html>

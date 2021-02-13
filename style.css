@@ -1,0 +1,240 @@
+*:focus {
+    outline: 0 !important;
+}
+
+#display {
+    grid-column: 1 / 5;
+    text-align: right;
+    background: #1C1C1C;
+    height: 100px;
+    color: white;
+    bottom: 0;
+    font-size: 48px;
+
+}
+
+#clear {
+    grid-area: "clear";
+    background-color: #D4D4D2;
+}
+
+#posneg {
+    grid-area: "posneg";
+    background-color: #D4D4D2;
+}
+
+#percent {
+    grid-area: "percent";
+    background-color: #D4D4D2;
+}
+
+#divide {
+    grid-area: "divide";
+    background-color: #FF9500;
+}
+
+#seven {
+    grid-area: "seven";
+    background-color: #505050;
+}
+
+#eight {
+    grid-area: "eight";
+    background-color: #505050;
+}
+
+#nine {
+    grid-area: "nine";
+    background-color: #505050;
+}
+
+#multiply {
+    grid-area: "multiply";
+    background-color: #FF9500;
+}
+
+#four {
+    grid-area: "four";
+    background-color: #505050;
+}
+
+#five {
+    grid-area: "five";
+    background-color: #505050;
+}
+
+#six {
+    grid-area: "six";
+    background-color: #505050;
+}
+
+#subtract {
+    grid-area: "subtract";
+    background-color: #FF9500;
+}
+
+#one {
+    grid-area: "one";
+    background-color: #505050;
+}
+
+#two {
+    grid-area: "two";
+    background-color: #505050;
+}
+
+#three {
+    grid-area: "three";
+    background-color: #505050;
+}
+
+#add {
+    grid-area: "add";
+    background-color: #FF9500;
+}
+
+#zero {
+    grid-area: "zero";
+    grid-column: 1 / 3;
+    background-color: #505050;
+}
+
+#decimal {
+    grid-area: "decimal";
+    background-color: #505050;
+}
+
+#enter {
+    grid-area: "enter";
+    background-color: #FF9500;
+}
+
+.number{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    align-self: center;
+    justify-self: center;
+    border-color: transparent;
+}
+
+#add:active {
+    background-color: #FFB20D;
+}
+
+.clear{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    align-self: center;
+    justify-self: center;
+    border-color: transparent;
+}
+
+.posneg{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    align-self: center;
+    justify-self: center;
+    border-color: transparent;
+    border-image: none;
+}
+
+.operator{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    align-self: center;
+    justify-self: center;
+    border-color: transparent;
+ 
+}
+
+
+.enter{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    align-self: center;
+    justify-self: center;
+    border-color: transparent;
+}
+
+.decimal{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    align-self: center;
+    justify-self: center;
+    border-color: transparent;
+}
+
+.percent{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    align-self: center;
+    justify-self: center;
+    border-color: transparent;
+}
+
+#zero {
+    border-radius: 40%;
+    height: 65px;
+    width: 130px;
+    align-self: center;
+    justify-self: center;
+    border-color: transparent;
+}
+
+
+
+
+#calculator {
+    width: 275px;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    background: #1C1C1C;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    grid-template-areas: 
+            "display display display display"
+            "clear posneg percent divide"
+            "seven eight nine multiply"
+            "four five six subtract"
+            "one two three add"
+            "zero zero decimal enter";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    user-select: none;
+}
+
+#container {
+    background: #1C1C1C;
+    padding: 15px;
+}
+body {
+    background: #1C1C1C;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.operator {
+    background-color: black;
+}
