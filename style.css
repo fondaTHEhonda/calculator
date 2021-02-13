@@ -2,6 +2,10 @@
     outline: 0 !important;
 }
 
+* {
+    font-family: Helvetica;
+}
+
 #display {
     grid-column: 1 / 5;
     text-align: right;
